@@ -1,0 +1,21 @@
+
+O
+DataAccessLayer/AppDbContext.cs,d\3\d361f38a6eb185101f531dc3961312304e94514e
+P
+ DataAccessLayer/Entities/User.cs,5\5\55a060aeaa8a1b818aab262d56201913fe1a91b0
+A
+WebAPI/Program.cs,f\a\faf253c58a39a374edeb1be4d2051b0cbd62f276
+G
+WebAPI/appsettings.json,b\a\baff57cab0bdcf73d497c3bd5759654dcd69e980
+]
+-BusinessLogicLayer/Interfaces/IAuthService.cs,0\4\04b9d61e8bd8939bb8a1f555c80a96d856ff52d3
+X
+(DataAccessLayer/Models/LoginViewModel.cs,4\4\443282bd1aefecc791ae3d04e14cbd0444b0933a
+a
+1DataAccessLayer/Models/ForgotPasswordViewModel.cs,4\4\44e7eede852fbb29b8ee2517a34fc1394df3036c
+Z
+*BusinessLogicLayer/Services/AuthService.cs,2\5\259cdb21e72d60ca1e8d7fd4a8a97e9e964e00fa
+W
+'WebAPI/Controllers/AuthApiController.cs,a\3\a3f16b350aee9f4161189ecf54f2aa77279eb52b
+B
+WebAPI/WebAPI.http,6\f\6f816a1fb69d9c6af411cd7853f838baddfcdb4b
