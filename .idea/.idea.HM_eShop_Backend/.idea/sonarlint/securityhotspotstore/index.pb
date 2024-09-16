@@ -19,3 +19,5 @@ W
 'WebAPI/Controllers/AuthApiController.cs,a\3\a3f16b350aee9f4161189ecf54f2aa77279eb52b
 B
 WebAPI/WebAPI.http,6\f\6f816a1fb69d9c6af411cd7853f838baddfcdb4b
+S
+#WebAPI/appsettings.Development.json,0\0\005281c9982602461dc74da3fb0ba7e2a583483f
