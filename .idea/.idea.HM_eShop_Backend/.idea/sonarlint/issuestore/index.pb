@@ -35,3 +35,5 @@ U
 %WebAPI/Properties/launchSettings.json,c\b\cbaf3685f4981d54ba8a8b042c469a113f59550e
 V
 &DataAccessLayer/Models/DTOs/UserDTO.cs,8\a\8aa0026189b11281fb4cd99bc0d1921054138aef
+j
+:DataAccessLayer/Migrations/20240917022747_init.Designer.cs,9\7\97f1828ec6a34ebf64601456e26ef87a54aeae81
