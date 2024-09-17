@@ -21,3 +21,17 @@ B
 WebAPI/WebAPI.http,6\f\6f816a1fb69d9c6af411cd7853f838baddfcdb4b
 S
 #WebAPI/appsettings.Development.json,0\0\005281c9982602461dc74da3fb0ba7e2a583483f
+X
+(DataAccessLayer/Entities/DTOs/UserDTO.cs,5\a\5a285e88d39de1b33f780867c424734319a6dba5
+T
+$WebAPI/Controllers/UserController.cs,8\5\85972dccbbef0a6bdd7fb87c84e0fb078a8d7142
+W
+'DataAccessLayer/Models/DTOs/LoginDTO.cs,5\b\5b0e90f1574358dc2bc2bf33d6299d86450b4b1c
+g
+7DataAccessLayer/Migrations/AppDbContextModelSnapshot.cs,f\d\fd65304a53ec49119bc06a65074c3f08cd1c8806
+a
+1DataAccessLayer/Migrations/20240917022747_init.cs,d\7\d738e24901356d59984bdbe285d4040e0fa973e5
+U
+%WebAPI/Properties/launchSettings.json,c\b\cbaf3685f4981d54ba8a8b042c469a113f59550e
+V
+&DataAccessLayer/Models/DTOs/UserDTO.cs,8\a\8aa0026189b11281fb4cd99bc0d1921054138aef
