@@ -14,8 +14,8 @@ public class AuthApiController : Controller
         _authService = authService;
     }
 
-    [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody] LoginViewModel model)
+    [HttpPost("loginUser")]
+    public async Task<IActionResult> LoginUser([FromBody] LoginViewModel model)
     {
         var token = await _authService.LoginAsync(model);
         if (token == null)
