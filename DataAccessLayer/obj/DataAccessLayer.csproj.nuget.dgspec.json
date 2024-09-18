@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HM_eShop_Backend\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "D:\\HM_eShop_Backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HM_eShop_Backend\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\HM_eShop_Backend\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\maima\\.nuget\\packages\\",
-        "outputPath": "D:\\HM_eShop_Backend\\DataAccessLayer\\obj\\",
+        "projectPath": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Trinh Dat\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Trinh Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
@@ -91,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
