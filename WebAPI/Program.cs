@@ -1,5 +1,9 @@
 
+using BusinessLogicLayer.Interfaces;
+using BusinessLogicLayer.Services;
 using DataAccessLayer;
+using DataAccessLayer.Models;
+using DataAccessLayer.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,11 +17,17 @@ builder.Services.AddControllers();
 
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString2 = builder.Configuration.GetConnectionString("TrinhDatConnection");
 var serverVersion = new MySqlServerVersion(new Version(8, 0, 23));
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseMySql(connectionString, serverVersion));
 
+builder.Services.AddDbContext<HmwebsiteContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("TrinhDatConnection")));
+
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<CategoryRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ProductRepository>();
 
 
 var app = builder.Build();
@@ -31,6 +41,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors(policy => policy
+    .WithOrigins("http://localhost:4200") // Angular app origin
+    .AllowAnyMethod()
+    .AllowAnyHeader());
 
+app.MapControllers();
 
 app.Run();
