@@ -18,7 +18,7 @@ builder.Services.AddControllers();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 var connectionString2 = builder.Configuration.GetConnectionString("TrinhDatConnection");
-var serverVersion = new MySqlServerVersion(new Version(8, 0, 23));
+//var serverVersion = new MySqlServerVersion(new Version(8, 0, 23));
 
 
 builder.Services.AddDbContext<HmwebsiteContext>(options =>
@@ -28,6 +28,8 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<CategoryRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ProductRepository>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<CartRepository>();
 
 
 var app = builder.Build();

@@ -1,4 +1,4 @@
-﻿    using DataAccessLayer.Models;
+﻿using DataAccessLayer.Models.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace BusinessLogicLayer.Interfaces
 {
-    public interface ICategoryService
+    public interface ICartService
     {
-        IEnumerable<Category> GetCategories();
+        List<CartWithProductDTO> GetUserCartItems(int userId);
     }
 }
