@@ -1,0 +1,5 @@
+
+–csharpsquid:S3928"GThe parameter name 'jwtSecretKey' is not declared in the argument list.(þ›•Òýÿÿÿÿ8ºÌ•òŸ2J$9252ea34-5550-4937-b6d7-a4542df62344
+vcsharpsquid:S4487"RRemove this unread private field '_context' or refactor the code to use its value.(áŒ£Ÿ8é©¢òŸ2
+£csharpsquid:S4487"TRemove this unread private field '_secretKey' or refactor the code to use its value.(’–½Åÿÿÿÿÿ8»Ì•òŸ2J$ad2f7fd9-7955-4274-9e5f-b1def02e81dc
+¢csharpsquid:S4487"XRemove this unread private field '_configuration' or refactor the code to use its value.(ˆ›–±8»Ì•òŸ2J$c5d95052-c21b-4dc1-9803-9bd09779e97d
