@@ -29,6 +29,8 @@ namespace DataAccessLayer.Repositories
                     ProductId = c.Product.Id,   
                     ProductName = c.Product.Name,
                     ProductPrice = c.Product.Price,
+                    Image = c.Product.Image,
+                    size = c.Product.SizeId,
                     Quantity = c.Quantity,
                     IsWishlist = c.IsWishlist
                 })

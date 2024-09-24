@@ -12,6 +12,12 @@ namespace BusinessLogicLayer.Services
     public class CartService : ICartService
     {
         private readonly CartRepository _cartRepository;
+
+        public CartService(CartRepository cartRepository)
+        {
+            _cartRepository = cartRepository;
+        }
+
         public List<CartWithProductDTO> GetUserCartItems(int userId)
         {
            return _cartRepository.GetUserCartItems(userId); 

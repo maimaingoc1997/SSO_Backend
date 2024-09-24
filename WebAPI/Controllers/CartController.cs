@@ -7,16 +7,25 @@ namespace WebAPI.Controllers
     [Route("/api/[controller]")]
     public class CartController : Controller
     {
-        private readonly ICartService _cartService; 
-
+        private readonly ICartService _cartService;
         public CartController(ICartService cartService)
         {
             _cartService = cartService;
         }
-        public IActionResult GetUserCartItems(int userID)
+
+        [HttpGet]
+        public IActionResult GetCartByUserID()
         {
-            var CartItems = _cartService.GetUserCartItems(userID);
-            return Ok(CartItems);
+            var userId = Request.Headers["userId"].FirstOrDefault();
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return BadRequest("User ID is required");
+            }
+
+            var carts = _cartService.GetUserCartItems(int.Parse(userId)); // Pass userId to service
+            return Ok(carts);
         }
+
     }
 }

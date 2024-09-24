@@ -12,6 +12,8 @@ namespace DataAccessLayer.Models.DTOs
         public int ProductId { get; set; }
         public string ProductName { get; set; }
         public double ProductPrice { get; set; }
+        public string Image { get; set; }
+        public int size { get; set; }
         public int Quantity { get; set; }
         public int IsWishlist { get; set; }
     }
