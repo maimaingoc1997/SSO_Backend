@@ -22,5 +22,10 @@ namespace BusinessLogicLayer.Services
         {
            return _cartRepository.GetUserCartItems(userId); 
         }
+
+        public List<CartWithProductDTO> GetUserWishlistItems(int userId)
+        {
+            return _cartRepository.GetUserWishlistItems(userId); 
+        }
     }
 }

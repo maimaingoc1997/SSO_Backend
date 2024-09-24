@@ -32,6 +32,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI.Controllers.CartController",
+    "Method": "GetCartByUserID",
+    "RelativePath": "api/Cart/user-cart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CartController",
+    "Method": "GetWishListByUserID",
+    "RelativePath": "api/Cart/user-wishlist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.CategoriesController",
     "Method": "GetAllCategory",
     "RelativePath": "api/Categories",
@@ -49,6 +69,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ProductController",
+    "Method": "GetProductsByCategory",
+    "RelativePath": "api/Product/category/{category}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

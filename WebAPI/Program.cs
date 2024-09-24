@@ -32,6 +32,7 @@ builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<CartRepository>();
 
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

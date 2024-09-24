@@ -21,12 +21,31 @@ namespace DataAccessLayer.Repositories
         public List<CartWithProductDTO> GetUserCartItems(int userId)
         {
             return _context.Carts
-                .Where(c => c.UserId == userId) // Filter by UserId
-                .Include(c => c.Product)        // Include the related Product
+                .Where(c => c.UserId == userId && c.IsWishlist == 0) 
+                .Include(c => c.Product)        
                 .Select(c => new CartWithProductDTO
                 {
                     CartId = c.Id,
                     ProductId = c.Product.Id,   
+                    ProductName = c.Product.Name,
+                    ProductPrice = c.Product.Price,
+                    Image = c.Product.Image,
+                    size = c.Product.SizeId,
+                    Quantity = c.Quantity,
+                    IsWishlist = c.IsWishlist
+                })
+                .ToList();
+        }
+
+        public List<CartWithProductDTO> GetUserWishlistItems(int userId)
+        {
+            return _context.Carts
+                .Where(c => c.UserId == userId && c.IsWishlist == 1)
+                .Include(c => c.Product)        
+                .Select(c => new CartWithProductDTO
+                {
+                    CartId = c.Id,
+                    ProductId = c.Product.Id,
                     ProductName = c.Product.Name,
                     ProductPrice = c.Product.Price,
                     Image = c.Product.Image,

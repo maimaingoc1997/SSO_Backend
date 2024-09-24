@@ -5364,24 +5364,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Trinh Dat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\hm_eshop_backend\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\Source\\hm_eshop_backend\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Admin\\hm_eshop_backend\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\hm_eshop_backend\\WebAPI\\obj\\",
+      "projectPath": "D:\\Source\\hm_eshop_backend\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Trinh Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\Source\\hm_eshop_backend\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Trinh Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5396,11 +5391,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\hm_eshop_backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-              "projectPath": "C:\\Users\\Admin\\hm_eshop_backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
             },
-            "C:\\Users\\Admin\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Admin\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
@@ -5484,7 +5479,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

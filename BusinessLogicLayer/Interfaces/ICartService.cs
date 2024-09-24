@@ -10,5 +10,6 @@ namespace BusinessLogicLayer.Interfaces
     public interface ICartService
     {
         List<CartWithProductDTO> GetUserCartItems(int userId);
+        List<CartWithProductDTO> GetUserWishlistItems(int userId);
     }
 }

@@ -22,5 +22,7 @@ namespace DataAccessLayer.Repositories
         {
             return _context.Categories.ToList();
         }
+
+       
     }
 }

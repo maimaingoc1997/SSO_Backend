@@ -11,15 +11,22 @@ namespace BusinessLogicLayer.Services
 {
     public class ProductService : IProductService
     {
-        private readonly ProductRepository _productRepository; 
+        private readonly ProductRepository _productRepository;
+        private readonly CategoryRepository _categoryRepository;
 
-        public ProductService(ProductRepository productRepository)
+        public ProductService(ProductRepository productRepository, CategoryRepository categoryRepository)
         {
             _productRepository = productRepository;
+            _categoryRepository = categoryRepository; 
         }
         public IEnumerable<Product> GetProducts()
         {
             return _productRepository.GetProducts(); 
+        }
+
+        public IEnumerable<Product> GetProductsByCategory(string category)
+        {
+            return _productRepository.GetProductsByCategory(category);
         }
     }
 }

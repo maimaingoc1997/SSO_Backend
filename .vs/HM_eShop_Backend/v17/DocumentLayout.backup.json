@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "D:\\Source\\hm_eshop_backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|d:\\source\\hm_eshop_backend\\dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|d:\\source\\hm_eshop_backend\\dataaccesslayer\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90496EDC-653B-40ED-A945-725459C4CDAB}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\source\\hm_eshop_backend\\businesslogiclayer\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90496EDC-653B-40ED-A945-725459C4CDAB}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90496EDC-653B-40ED-A945-725459C4CDAB}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\source\\hm_eshop_backend\\businesslogiclayer\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90496EDC-653B-40ED-A945-725459C4CDAB}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|d:\\source\\hm_eshop_backend\\webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|d:\\source\\hm_eshop_backend\\dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|d:\\source\\hm_eshop_backend\\dataaccesslayer\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90496EDC-653B-40ED-A945-725459C4CDAB}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\source\\hm_eshop_backend\\businesslogiclayer\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90496EDC-653B-40ED-A945-725459C4CDAB}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90496EDC-653B-40ED-A945-725459C4CDAB}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\source\\hm_eshop_backend\\businesslogiclayer\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90496EDC-653B-40ED-A945-725459C4CDAB}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|d:\\source\\hm_eshop_backend\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|d:\\source\\hm_eshop_backend\\webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|d:\\source\\hm_eshop_backend\\dataaccesslayer\\models\\hmwebsitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABD38CD-BE84-47D6-B9C7-53ED0B94791F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\models\\hmwebsitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|d:\\source\\hm_eshop_backend\\webapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|d:\\source\\hm_eshop_backend\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B65B302D-0C98-44F8-8B67-1FD820FA466A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +58,173 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\WebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\WebAPI\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "WebAPI\\Controllers\\ProductController.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:53:57.05Z",
+              "WhenOpened": "2024-09-24T07:09:57.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\WebAPI\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Source\\hm_eshop_backend\\WebAPI\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Repositories\\CategoryRepository.cs*",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\CategoryRepository.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:47:11.079Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+              "WhenOpened": "2024-09-24T06:57:28.833Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\ProductRepository.cs",
               "ToolTip": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "DataAccessLayer\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA8wBwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:53:06.361Z",
+              "WhenOpened": "2024-09-24T06:32:12.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\Services\\ProductService.cs*",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\ProductService.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T06:31:09.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\Interfaces\\IProductService.cs*",
+              "RelativeToolTip": "BusinessLogicLayer\\Interfaces\\IProductService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T06:28:35.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "D:\\Source\\hm_eshop_backend\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:51:40.155Z"
+              "WhenOpened": "2024-09-24T06:01:24.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\WebAPI\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoriesController.cs",
-              "ToolTip": "D:\\Source\\hm_eshop_backend\\WebAPI\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "HmwebsiteContext.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Models\\HmwebsiteContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Models\\HmwebsiteContext.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Models\\HmwebsiteContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Models\\HmwebsiteContext.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAIkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T06:47:31.152Z"
+              "WhenOpened": "2024-09-24T05:44:48.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Interfaces\\ICartService.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Interfaces\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:43:15.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\WebAPI\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\WebAPI\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:02:47.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T03:02:30.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\CartService.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\Services\\CartService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\CartService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:52:53.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\CartRepository.cs",
+              "ToolTip": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\Repositories\\CartRepository.cs*",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\CartRepository.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:53:11.441Z",
+              "EditorCaption": ""
             }
           ]
         }
