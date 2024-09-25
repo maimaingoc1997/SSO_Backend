@@ -11,5 +11,7 @@ namespace BusinessLogicLayer.Interfaces
     {
         List<CartWithProductDTO> GetUserCartItems(int userId);
         List<CartWithProductDTO> GetUserWishlistItems(int userId);
+
+        void AddToCart(CartWithProductDTO cartItem, int userId);
     }
 }

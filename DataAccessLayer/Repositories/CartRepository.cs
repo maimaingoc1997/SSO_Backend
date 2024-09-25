@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace DataAccessLayer.Repositories
 {
@@ -21,12 +22,12 @@ namespace DataAccessLayer.Repositories
         public List<CartWithProductDTO> GetUserCartItems(int userId)
         {
             return _context.Carts
-                .Where(c => c.UserId == userId && c.IsWishlist == 0) 
-                .Include(c => c.Product)        
+                .Where(c => c.UserId == userId && c.IsWishlist == 0)
+                .Include(c => c.Product)
                 .Select(c => new CartWithProductDTO
                 {
                     CartId = c.Id,
-                    ProductId = c.Product.Id,   
+                    ProductId = c.Product.Id,
                     ProductName = c.Product.Name,
                     ProductPrice = c.Product.Price,
                     Image = c.Product.Image,
@@ -41,7 +42,7 @@ namespace DataAccessLayer.Repositories
         {
             return _context.Carts
                 .Where(c => c.UserId == userId && c.IsWishlist == 1)
-                .Include(c => c.Product)        
+                .Include(c => c.Product)
                 .Select(c => new CartWithProductDTO
                 {
                     CartId = c.Id,
@@ -54,6 +55,39 @@ namespace DataAccessLayer.Repositories
                     IsWishlist = c.IsWishlist
                 })
                 .ToList();
+        }
+
+        public void AddToCart(CartWithProductDTO cartItem, int userId)
+        {
+            var existingCartItem = _context.Carts
+                .FirstOrDefault(c => c.UserId == userId && c.ProductId == cartItem.ProductId);
+
+            if (existingCartItem != null)
+            {
+                if (existingCartItem.IsWishlist == 1)
+                {
+                    existingCartItem.IsWishlist = 0;
+                }
+                else
+                {
+                    existingCartItem.Quantity += cartItem.Quantity;
+                }
+
+            }
+            else
+            {
+                var newCartItem = new Cart
+                {
+                    UserId = userId,
+                    ProductId = cartItem.ProductId,
+                    Quantity = cartItem.Quantity,
+                    IsWishlist = 0
+                };
+
+                _context.Carts.Add(newCartItem);
+            }
+
+            _context.SaveChanges();
         }
     }
 }

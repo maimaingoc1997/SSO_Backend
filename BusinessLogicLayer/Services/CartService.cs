@@ -18,6 +18,11 @@ namespace BusinessLogicLayer.Services
             _cartRepository = cartRepository;
         }
 
+        public void AddToCart(CartWithProductDTO cartItem, int userId)
+        {
+            _cartRepository.AddToCart(cartItem, userId);
+        }
+
         public List<CartWithProductDTO> GetUserCartItems(int userId)
         {
            return _cartRepository.GetUserCartItems(userId); 

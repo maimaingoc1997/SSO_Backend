@@ -1,31 +1,15 @@
 [
   {
-    "ContainingType": "WebAPI.Controllers.AuthApiController",
-    "Method": "ForgotPassword",
-    "RelativePath": "api/AuthApi/forgotpassword",
+    "ContainingType": "WebAPI.Controllers.CartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart/add",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "DataAccessLayer.Models.ForgotPasswordViewModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.AuthApiController",
-    "Method": "LoginUser",
-    "RelativePath": "api/AuthApi/loginUser",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "DataAccessLayer.Models.LoginViewModel",
+        "Name": "cartItem",
+        "Type": "DataAccessLayer.Models.DTOs.CartWithProductDTO",
         "IsRequired": true
       }
     ],
@@ -82,48 +66,6 @@
       {
         "Name": "category",
         "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.UserController",
-    "Method": "GetAllUsers",
-    "RelativePath": "api/User/GetAllUsers",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.UserController",
-    "Method": "Login",
-    "RelativePath": "api/User/Login",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "loginDto",
-        "Type": "DataAccessLayer.Entities.DTOs.LoginDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI.Controllers.UserController",
-    "Method": "Registration",
-    "RelativePath": "api/User/Registration",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userDto",
-        "Type": "DataAccessLayer.Entities.DTOs.UserDTO",
         "IsRequired": true
       }
     ],
