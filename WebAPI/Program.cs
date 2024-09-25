@@ -17,12 +17,11 @@ builder.Services.AddControllers();
 
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-var connectionString2 = builder.Configuration.GetConnectionString("TrinhDatConnection");
 //var serverVersion = new MySqlServerVersion(new Version(8, 0, 23));
 
 
 builder.Services.AddDbContext<HmwebsiteContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TrinhDatConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<CategoryRepository>();

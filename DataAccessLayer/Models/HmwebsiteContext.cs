@@ -31,7 +31,7 @@ public partial class HmwebsiteContext : DbContext
         IConfiguration configuration = new ConfigurationBuilder()
         .SetBasePath(Directory.GetCurrentDirectory())
         .AddJsonFile("appsettings.json", true, true).Build();
-        return configuration["ConnectionStrings:TrinhDatConnection"];
+        return configuration["ConnectionStrings:DefaultConnection"];
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
