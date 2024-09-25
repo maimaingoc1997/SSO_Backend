@@ -39,6 +39,7 @@ TestResult.xml
 # Auto-generated files (backup)
 *.sln.old
 
+<<<<<<< HEAD
 # SQL Server files
 *.mdf
 *.ldf
@@ -55,3 +56,6 @@ node_modules/
 # Web-specific files (for ASP.NET, etc.)
 wwwroot/
 
+=======
+#
+>>>>>>> Homepage
