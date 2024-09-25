@@ -17,6 +17,38 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.CartController",
+    "Method": "AddToWishList",
+    "RelativePath": "api/Cart/addWishList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItem",
+        "Type": "DataAccessLayer.Models.DTOs.CartWithProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CartController",
+    "Method": "Remove",
+    "RelativePath": "api/Cart/remove",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItem",
+        "Type": "DataAccessLayer.Models.DTOs.CartWithProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CartController",
     "Method": "GetCartByUserID",
     "RelativePath": "api/Cart/user-cart",
     "HttpMethod": "GET",

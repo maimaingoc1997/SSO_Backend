@@ -17,7 +17,10 @@ namespace BusinessLogicLayer.Services
         {
             _cartRepository = cartRepository;
         }
-
+        public void RemoveFromCart(CartWithProductDTO cartItem, int userId)
+        {
+            _cartRepository.RemoveFromCart(cartItem, userId); 
+        }
         public void AddToCart(CartWithProductDTO cartItem, int userId)
         {
             _cartRepository.AddToCart(cartItem, userId);
@@ -25,12 +28,17 @@ namespace BusinessLogicLayer.Services
 
         public List<CartWithProductDTO> GetUserCartItems(int userId)
         {
-           return _cartRepository.GetUserCartItems(userId); 
+            return _cartRepository.GetUserCartItems(userId);
         }
 
         public List<CartWithProductDTO> GetUserWishlistItems(int userId)
         {
-            return _cartRepository.GetUserWishlistItems(userId); 
+            return _cartRepository.GetUserWishlistItems(userId);
+        }
+
+        public void AddToWishList(CartWithProductDTO cartItem, int userId)
+        {
+            _cartRepository.AddToWishList(cartItem, userId);
         }
     }
 }

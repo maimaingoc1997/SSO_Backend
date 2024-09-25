@@ -89,5 +89,46 @@ namespace DataAccessLayer.Repositories
 
             _context.SaveChanges();
         }
+
+        public void RemoveFromCart(CartWithProductDTO cartItem, int userId)
+        {
+            var item = _context.Carts
+                .FirstOrDefault(c => c.UserId == userId && c.ProductId == cartItem.ProductId);
+
+            if (item != null)
+            {
+                _context.Carts.Remove(item);
+            }
+            _context.SaveChanges();
+        }
+        public void AddToWishList(CartWithProductDTO cartItem, int userId)
+        {
+            var existingCartItem = _context.Carts
+                .FirstOrDefault(c => c.UserId == userId && c.ProductId == cartItem.ProductId);
+
+            if (existingCartItem != null)
+            {
+                if (existingCartItem.IsWishlist == 0)
+                {
+                    existingCartItem.IsWishlist = 1;
+                }
+        
+
+            }
+            else
+            {
+                var newCartItem = new Cart
+                {
+                    UserId = userId,
+                    ProductId = cartItem.ProductId,
+                    Quantity = cartItem.Quantity,
+                    IsWishlist = 1
+                };
+
+                _context.Carts.Add(newCartItem);
+            }
+
+            _context.SaveChanges();
+        }
     }
 }
