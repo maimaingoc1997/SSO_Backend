@@ -90,14 +90,14 @@
   {
     "ContainingType": "WebAPI.Controllers.ProductController",
     "Method": "GetProductsByCategory",
-    "RelativePath": "api/Product/category/{category}",
+    "RelativePath": "api/Product/categories/{categoryId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "System.String",
+        "Name": "categoryId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

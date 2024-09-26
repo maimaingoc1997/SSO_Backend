@@ -24,9 +24,12 @@ namespace BusinessLogicLayer.Services
             return _productRepository.GetProducts(); 
         }
 
-        public IEnumerable<Product> GetProductsByCategory(string category)
+        public IEnumerable<Product> GetProductByCategory(int categoryId)
         {
-            return _productRepository.GetProductsByCategory(category);
+            if (_categoryRepository.isRootCategory(categoryId)){
+                return _productRepository.GetProductsByParentCategory(categoryId);
+            }
+            return _productRepository.GetProductsByCategory(categoryId);
         }
     }
 }
