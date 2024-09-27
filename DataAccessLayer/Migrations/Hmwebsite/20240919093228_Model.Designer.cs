@@ -217,7 +217,7 @@ namespace DataAccessLayer.Migrations.Hmwebsite
                         .HasColumnName("phone");
 
                     b.Property<int>("Role")
-                        .HasColumnType("int")
+                        .HasColumnType("nvarchar(50)")
                         .HasColumnName("role");
 
                     b.HasKey("Id")

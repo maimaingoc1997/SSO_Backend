@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Models.DTOs
 {
-    public class LoginDTO
+    public class LoginResult
     {
-        public string Email { get; set; } = null!;
-
-        public string Password { get; set; } = null!;
-
-
-
+        public string Message { get; set; }
+        public string Token { get; set; }
     }
 }
