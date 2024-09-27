@@ -1,5 +1,56 @@
 [
   {
+<<<<<<< HEAD
+=======
+    "ContainingType": "WebAPI.Controllers.CartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItem",
+        "Type": "DataAccessLayer.Models.DTOs.CartWithProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CartController",
+    "Method": "AddToWishList",
+    "RelativePath": "api/Cart/addWishList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItem",
+        "Type": "DataAccessLayer.Models.DTOs.CartWithProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CartController",
+    "Method": "Remove",
+    "RelativePath": "api/Cart/remove",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartItem",
+        "Type": "DataAccessLayer.Models.DTOs.CartWithProductDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+>>>>>>> origin/cart
     "ContainingType": "WebAPI.Controllers.CartController",
     "Method": "GetCartByUserID",
     "RelativePath": "api/Cart/user-cart",
@@ -42,18 +93,35 @@
   {
     "ContainingType": "WebAPI.Controllers.ProductController",
     "Method": "GetProductsByCategory",
-    "RelativePath": "api/Product/category/{category}",
+    "RelativePath": "api/Product/categories/{categoryId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ProductController",
+    "Method": "SearchByName",
+    "RelativePath": "api/Product/search/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
         "Type": "System.String",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
+<<<<<<< HEAD
   },
   {
     "ContainingType": "WebAPI.Controllers.UserController",
@@ -112,5 +180,7 @@
       }
     ],
     "ReturnTypes": []
+=======
+>>>>>>> origin/cart
   }
 ]

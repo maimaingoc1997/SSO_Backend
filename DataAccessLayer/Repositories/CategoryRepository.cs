@@ -23,6 +23,16 @@ namespace DataAccessLayer.Repositories
             return _context.Categories.ToList();
         }
 
-       
+        public bool isRootCategory(int categoryId)
+        {
+            var category = _context.Categories
+                .FirstOrDefault(c => c.Id == categoryId); 
+
+            if( category != null && category.ParentId == 0) return true;
+
+            return false;
+        }
+
+
     }
 }

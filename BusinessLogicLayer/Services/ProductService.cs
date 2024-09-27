@@ -17,16 +17,25 @@ namespace BusinessLogicLayer.Services
         public ProductService(ProductRepository productRepository, CategoryRepository categoryRepository)
         {
             _productRepository = productRepository;
-            _categoryRepository = categoryRepository; 
+            _categoryRepository = categoryRepository;
         }
         public IEnumerable<Product> GetProducts()
         {
-            return _productRepository.GetProducts(); 
+            return _productRepository.GetProducts();
         }
 
-        public IEnumerable<Product> GetProductsByCategory(string category)
+        public IEnumerable<Product> GetProductByCategory(int categoryId)
         {
-            return _productRepository.GetProductsByCategory(category);
+            if (_categoryRepository.isRootCategory(categoryId))
+            {
+                return _productRepository.GetProductsByParentCategory(categoryId);
+            }
+            return _productRepository.GetProductsByCategory(categoryId);
+        }
+
+        public IEnumerable<Product> SearchByName(string name)
+        {
+            return _productRepository.SearchByName(name);
         }
     }
 }

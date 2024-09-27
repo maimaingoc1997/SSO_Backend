@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DataAccessLayer.Models.DTOs
 {
     public class CartWithProductDTO
-    {
+    {   
         public int CartId { get; set; }
         public int ProductId { get; set; }
         public string ProductName { get; set; }
