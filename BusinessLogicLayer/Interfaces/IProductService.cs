@@ -11,7 +11,7 @@ namespace BusinessLogicLayer.Interfaces
     {
         IEnumerable<Product> GetProducts();
         IEnumerable<Product> GetProductByCategory(int category);
-        
-        
+
+        IEnumerable<Product> SearchByName(string name); 
     }
 }

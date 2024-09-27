@@ -10,8 +10,8 @@ namespace DataAccessLayer.Repositories
 {
     public class ProductRepository
     {
-        private readonly HmwebsiteContext _context; 
-        
+        private readonly HmwebsiteContext _context;
+
         public ProductRepository(HmwebsiteContext context)
         {
             _context = context;
@@ -33,6 +33,11 @@ namespace DataAccessLayer.Repositories
             return _context.Products
                            .Where(p => p.Cate.ParentId == categoryId)
                            .ToList();
+        }
+        public IEnumerable<Product> SearchByName(string name)
+        {
+            return _context.Products.Where(p =>
+            p.Name.Contains(name)).ToList();
         }
 
     }

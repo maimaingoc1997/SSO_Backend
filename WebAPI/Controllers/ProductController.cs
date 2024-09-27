@@ -1,4 +1,5 @@
 ﻿using BusinessLogicLayer.Interfaces;
+using DataAccessLayer.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
@@ -29,6 +30,19 @@ namespace WebAPI.Controllers
             if (products == null || !products.Any())
             {
                 return NotFound($"No products found for category: {categoryId}");
+            }
+
+            return Ok(products);
+        }
+
+        [HttpGet("search/{name}")]
+        public IActionResult SearchByName(string name)
+        {
+            var products = _productService.SearchByName(name);
+
+            if (products == null || !products.Any())
+            {
+                return NotFound($"No products found for name: {name}");
             }
 
             return Ok(products);
