@@ -40,5 +40,30 @@ namespace DataAccessLayer.Repositories
             p.Name.Contains(name)).ToList();
         }
 
+        public IEnumerable<Product> GetProductsByStatus(int status)
+        {
+            return _context.Products.Where(p => p.Status == status).ToList();
+        }
+
+        public IEnumerable<Product> GetActiveProductsByCategory(int categoryId)
+        {
+            return GetProductsByCategory(categoryId).Where(p => p.Status == 1).ToList();
+        }
+        public IEnumerable<Product> GetDeActiveProductsByCategory(int categoryId)
+        {
+            return GetProductsByCategory(categoryId).Where(p => p.Status == 0).ToList();
+        }
+        public IEnumerable<Product> GetActiveProductsByParentCategory(int categoryId)
+        {
+            return GetProductsByParentCategory(categoryId).Where(p => p.Status == 1).ToList();
+        }
+        public IEnumerable<Product> GetDeActiveProductsByParentCategory(int categoryId)
+        {
+            return GetProductsByParentCategory(categoryId).Where(p => p.Status == 0).ToList();
+        }
+        public Product? GetProductByID(int productId)
+        {
+            return _context.Products.FirstOrDefault(p => p.Id == productId);
+        }
     }
 }

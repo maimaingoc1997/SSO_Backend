@@ -47,5 +47,55 @@ namespace WebAPI.Controllers
 
             return Ok(products);
         }
+
+        [HttpGet("status/{status}")]
+        public IActionResult GetProductByStatus(int status)
+        {
+            var products = _productService.GetProductsByStatus(status);
+            if (products == null || !products.Any())
+            {
+                return NotFound($"No products found for status: {status}");
+            }
+
+            return Ok(products);
+        }
+
+        [HttpGet("Acategories/{categoryId}")]
+        public IActionResult GetActiveProductsByCategory(int categoryId)
+        {
+            var products = _productService.GetActiveProductsByCategory(categoryId);
+
+            if (products == null || !products.Any())
+            {
+                return NotFound($"No Active products found for category: {categoryId}");
+            }
+
+            return Ok(products);
+        }
+        [HttpGet("DEAcategories/{categoryId}")]
+        public IActionResult GetDeActiveProductsByCategory(int categoryId)
+        {
+            var products = _productService.GetDeActiveProductsByCategory(categoryId);
+
+            if (products == null || !products.Any())
+            {
+                return NotFound($"No De-active products found for category: {categoryId}");
+            }
+
+            return Ok(products);
+        }
+
+        [HttpGet("{productId}")]
+        public IActionResult GetProductById(int productId)
+        {
+            var product = _productService.GetProductById(productId);
+
+            if (product == null)
+            {
+                return NotFound($"No product found for id: {productId}");
+            }
+
+            return Ok(product);
+        }
     }
 }
