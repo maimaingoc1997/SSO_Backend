@@ -32,10 +32,36 @@ namespace BusinessLogicLayer.Services
             }
             return _productRepository.GetProductsByCategory(categoryId);
         }
+        public IEnumerable<Product> GetActiveProductsByCategory(int categoryId)
+        {
+            if (_categoryRepository.isRootCategory(categoryId))
+            {
+                return _productRepository.GetActiveProductsByParentCategory(categoryId);
+            }
+            return _productRepository.GetActiveProductsByCategory(categoryId);
+        }
+        public IEnumerable<Product> GetDeActiveProductsByCategory(int categoryId)
+        {
+            if (_categoryRepository.isRootCategory(categoryId))
+            {
+                return _productRepository.GetDeActiveProductsByParentCategory(categoryId);
+            }
+            return _productRepository.GetDeActiveProductsByCategory(categoryId);
+        }
 
         public IEnumerable<Product> SearchByName(string name)
         {
             return _productRepository.SearchByName(name);
+        }
+
+        public IEnumerable<Product> GetProductsByStatus(int status)
+        {
+           return _productRepository.GetProductsByStatus(status);
+        }
+
+        public Product? GetProductById(int productId)
+        {
+            return _productRepository.GetProductByID(productId);
         }
     }
 }

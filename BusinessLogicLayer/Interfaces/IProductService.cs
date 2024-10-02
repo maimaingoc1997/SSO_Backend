@@ -12,6 +12,14 @@ namespace BusinessLogicLayer.Interfaces
         IEnumerable<Product> GetProducts();
         IEnumerable<Product> GetProductByCategory(int category);
 
-        IEnumerable<Product> SearchByName(string name); 
+        IEnumerable<Product> SearchByName(string name);
+
+        IEnumerable<Product> GetProductsByStatus(int status);
+
+        IEnumerable<Product> GetDeActiveProductsByCategory(int categoryId);
+
+        IEnumerable<Product> GetActiveProductsByCategory(int categoryId);
+
+        Product? GetProductById(int productId);
     }
 }

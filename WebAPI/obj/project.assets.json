@@ -5273,24 +5273,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maima\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Trinh Dat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VSCode_Purple\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\Source\\hm_eshop_backend\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\VSCode_Purple\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\maima\\.nuget\\packages\\",
-      "outputPath": "D:\\VSCode_Purple\\WebAPI\\obj\\",
+      "projectPath": "D:\\Source\\hm_eshop_backend\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Trinh Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\Source\\hm_eshop_backend\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\maima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Trinh Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5305,11 +5300,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\VSCode_Purple\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-              "projectPath": "D:\\VSCode_Purple\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "D:\\Source\\hm_eshop_backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
             },
-            "D:\\VSCode_Purple\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\VSCode_Purple\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\Source\\hm_eshop_backend\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
