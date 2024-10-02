@@ -1,7 +1,5 @@
 [
   {
-<<<<<<< HEAD
-=======
     "ContainingType": "WebAPI.Controllers.CartController",
     "Method": "AddToCart",
     "RelativePath": "api/Cart/add",
@@ -50,7 +48,6 @@
     "ReturnTypes": []
   },
   {
->>>>>>> origin/cart
     "ContainingType": "WebAPI.Controllers.CartController",
     "Method": "GetCartByUserID",
     "RelativePath": "api/Cart/user-cart",
@@ -121,7 +118,6 @@
       }
     ],
     "ReturnTypes": []
-<<<<<<< HEAD
   },
   {
     "ContainingType": "WebAPI.Controllers.UserController",
@@ -180,7 +176,5 @@
       }
     ],
     "ReturnTypes": []
-=======
->>>>>>> origin/cart
   }
 ]
